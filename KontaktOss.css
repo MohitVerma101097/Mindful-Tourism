@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #214360;
+  color: #f0f0fc;
+  padding: 10px;
+}
+
+nav {
+  text-align: center;
+  background-color: #214360;
+  border-bottom: solid 0.5px #49583e;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+ a {
+  list-style: none;
+  text-decoration: none;
+  color: #f0f0fc;
+}
+
+a:hover {
+  color:#86CBE6
+}
+
+a:active {
+  font-size: 18px;
+  transition: font-size .1s ease-out
+}
+
+body {
+  background-image: url(https://rare-gallery.com/resol/3840x2160/464159-artwork-minimalism-mountains-mist-sky-blue-simple.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-intro {
+  padding-top: 50px;
+  padding-bottom: 50PX;;
+  text-align: center;
+  color: #214360;
+}
+
+.contact {
+  background-color: #86CBE6;
+  border: solid .5px #214360;
+  border-radius: 2%;
+  width: 250px;
+  margin: 0 auto; 
+}
+
+.contact-form {
+  padding: 20px;
+}
+
+
+.contact-forum, .form, input {
+  width:90%;
+  padding: 5px;
+}
+
+.button-1 {
+  height: 38px;
+  background: #214360;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:#ffffff;
+}
+
+
+
+footer {
+    padding-top: 800px;
+    text-align: center;
+}
+
